@@ -1,0 +1,18 @@
+﻿<Window x:Class="ContainerWpfApp.StackPanelWindow3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContainerWpfApp"
+        mc:Ignorable="d"
+        Title="StackPanel" Height="150" Width="320">
+    <StackPanel Orientation="Horizontal">
+        <Button Content="Нажми меня" VerticalAlignment="Top"
+                Background="Aquamarine" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Button 2" VerticalAlignment="Center"/>
+        <Button Content="Button 3" VerticalAlignment="Bottom"/>
+        <Button Content="Button 4" VerticalAlignment="Bottom"/>
+        <Button Content="Button 5" VerticalAlignment="Center"/>
+        <Button Content="Button 6" VerticalAlignment="Top"/>
+    </StackPanel>
+</Window>
